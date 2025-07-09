@@ -1,0 +1,24 @@
+{
+  "name": "ts-jest-typia-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepare": "ts-patch install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typia": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "ts-patch": "^3.3.0",
+    "typescript": "~5.8.3"
+  }
+}
