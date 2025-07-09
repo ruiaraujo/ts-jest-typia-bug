@@ -15,7 +15,7 @@ module.exports = {
           }
         ],
         strict: true,
-        isolatedModules: true
+        isolatedModules: true // test pass if this flag is false
       }
     }]
   },
